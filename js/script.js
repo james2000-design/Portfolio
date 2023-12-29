@@ -1,14 +1,12 @@
 /* typing animation */
 var typed = new Typed(".typing", {
-  strings: [
-    "Frontend Developer",
-    "Frontend Developer",
-    "Tech Enthusiast",
-    "Frontend Developer",
-  ],
-  typeSpeed: 60,
-  BackSpeed: 30,
+  strings: ["Frontend Developer", "Tech Enthusiast", "Frontend Developer"],
+  typeSpeed: 80,
+  BackSpeed: 400,
+  startDelay: 500,
+  backDelay: 500,
   loop: true,
+  cursorChar: "|",
 });
 
 /* Aside */
